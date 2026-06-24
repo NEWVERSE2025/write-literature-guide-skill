@@ -103,27 +103,7 @@ cp -R write-literature-guide-skill/skills/write-literature-guide .codex/skills/
 
 这个仓库尽量保持通用：skill 的规则写在 Markdown 文件中，没有依赖固定的本机路径，也没有要求只能由 Codex 使用。其它 agent 可以按自身能力选择以下方式接入。
 
-### 支持 Codex 风格 skill 的 agent
-
-将下面这个文件夹复制到该 agent 的 skill 目录：
-
-```text
-skills/write-literature-guide/
-```
-
-然后用 skill 名称调用：
-
-```text
-使用 write-literature-guide 生成中文文献导读。
-```
-
-或：
-
-```text
-使用 $write-literature-guide 生成中文文献导读。
-```
-
-### 支持仓库指令文件的 agent
+### 一键安装（推荐）
 
 打开你正在用的 agent（Claude Code、Codex、Cursor、OpenClaw、Hermes、CodeBuddy、Workbuddy、Gemini CLI、OpenCode 等），告诉它：
 ```text
