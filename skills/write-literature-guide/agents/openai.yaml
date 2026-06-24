@@ -1,0 +1,4 @@
+interface:
+  display_name: "文献导读写作"
+  short_description: "根据论文生成中文文献导读。"
+  default_prompt: "使用 $write-literature-guide 为这篇论文撰写中文文献导读。"
