@@ -25,7 +25,6 @@ skills/write-literature-guide/
 ```text
 write-literature-guide-skill/
 ├─ README.md
-├─ AGENTS.md
 └─ skills/
    └─ write-literature-guide/
       ├─ SKILL.md
