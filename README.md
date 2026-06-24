@@ -126,7 +126,9 @@ skills/write-literature-guide/
 ### 支持仓库指令文件的 agent
 
 打开你正在用的 agent（Claude Code、Codex、Cursor、OpenClaw、Hermes、CodeBuddy、Workbuddy、Gemini CLI、OpenCode 等），告诉它：
+'''text
 帮我安装这个 skill：https://github.com/NEWVERSE2025/write-literature-guide-skill
+'''
 
 ### 没有 skill 系统的 agent
 
