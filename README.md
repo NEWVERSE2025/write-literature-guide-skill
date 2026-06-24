@@ -155,27 +155,6 @@ skills/write-literature-guide/references/guide-rules.md
 
 这种情况下，`$write-literature-guide` 只是一个方便识别的调用名称，不是必须语法。
 
-
-## 发布到 GitHub
-
-建议将整个 `write-literature-guide-skill` 文件夹作为一个 GitHub 仓库发布。上传前可检查：
-
-- 仓库根目录包含 `README.md` 和 `AGENTS.md`。
-- skill 本体位于 `skills/write-literature-guide/`。
-- `SKILL.md` 和 `references/guide-rules.md` 使用 UTF-8 编码。
-- 文档中没有只适用于个人电脑的绝对路径。
-
-可选的发布命令：
-
-```bash
-git init
-git add README.md AGENTS.md skills/write-literature-guide
-git commit -m "Add Chinese literature guide skill"
-git branch -M main
-git remote add origin https://github.com/<你的用户名>/write-literature-guide-skill.git
-git push -u origin main
-```
-
 ## 许可证
 
 你可以根据自己的需要选择许可证。若希望别人自由使用和修改，建议使用 MIT License。
