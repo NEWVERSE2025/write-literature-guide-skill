@@ -125,17 +125,8 @@ skills/write-literature-guide/
 
 ### 支持仓库指令文件的 agent
 
-让 agent 读取仓库根目录的 `AGENTS.md`。该文件会指向真正的 skill 入口：
-
-```text
-skills/write-literature-guide/SKILL.md
-```
-
-agent 读取 `SKILL.md` 后，还应按其中说明读取：
-
-```text
-skills/write-literature-guide/references/guide-rules.md
-```
+打开你正在用的 agent（Claude Code、Codex、Cursor、OpenClaw、Hermes、CodeBuddy、Workbuddy、Gemini CLI、OpenCode 等），告诉它：
+帮我安装这个 skill：https://github.com/NEWVERSE2025/write-literature-guide-skill
 
 ### 没有 skill 系统的 agent
 
