@@ -48,7 +48,7 @@ write-literature-guide-skill/
 Windows PowerShell：
 
 ```powershell
-git clone https://github.com/<你的用户名>/write-literature-guide-skill.git
+git clone https://github.com/NEWVERSE2025/write-literature-guide-skill.git
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.codex\skills" | Out-Null
 Copy-Item -Recurse -Force ".\write-literature-guide-skill\skills\write-literature-guide" "$env:USERPROFILE\.codex\skills\write-literature-guide"
 ```
@@ -56,7 +56,7 @@ Copy-Item -Recurse -Force ".\write-literature-guide-skill\skills\write-literatur
 macOS 或 Linux：
 
 ```bash
-git clone https://github.com/<你的用户名>/write-literature-guide-skill.git
+git clone https://github.com/NEWVERSE2025/write-literature-guide-skill.git
 mkdir -p ~/.codex/skills
 cp -R write-literature-guide-skill/skills/write-literature-guide ~/.codex/skills/
 ```
@@ -68,7 +68,7 @@ cp -R write-literature-guide-skill/skills/write-literature-guide ~/.codex/skills
 Windows PowerShell：
 
 ```powershell
-git clone https://github.com/<你的用户名>/write-literature-guide-skill.git
+git clone https://github.com/NEWVERSE2025/write-literature-guide-skill.git
 New-Item -ItemType Directory -Force ".\.codex\skills" | Out-Null
 Copy-Item -Recurse -Force ".\write-literature-guide-skill\skills\write-literature-guide" ".\.codex\skills\write-literature-guide"
 ```
@@ -76,7 +76,7 @@ Copy-Item -Recurse -Force ".\write-literature-guide-skill\skills\write-literatur
 macOS 或 Linux：
 
 ```bash
-git clone https://github.com/<你的用户名>/write-literature-guide-skill.git
+git clone https://github.com/NEWVERSE2025/write-literature-guide-skill.git
 mkdir -p .codex/skills
 cp -R write-literature-guide-skill/skills/write-literature-guide .codex/skills/
 ```
