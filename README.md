@@ -155,6 +155,3 @@ skills/write-literature-guide/references/guide-rules.md
 
 这种情况下，`$write-literature-guide` 只是一个方便识别的调用名称，不是必须语法。
 
-## 许可证
-
-你可以根据自己的需要选择许可证。若希望别人自由使用和修改，建议使用 MIT License。
