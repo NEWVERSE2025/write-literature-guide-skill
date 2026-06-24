@@ -109,21 +109,3 @@ cp -R write-literature-guide-skill/skills/write-literature-guide .codex/skills/
 ```text
 帮我安装这个 skill：https://github.com/NEWVERSE2025/write-literature-guide-skill
 ```
-
-### 没有 skill 系统的 agent
-
-把以下两个文件作为上下文提供给 agent：
-
-```text
-skills/write-literature-guide/SKILL.md
-skills/write-literature-guide/references/guide-rules.md
-```
-
-然后用自然语言要求它执行任务，例如：
-
-```text
-请严格按照 SKILL.md 和 guide-rules.md 的规则，根据这篇论文 PDF 生成中文文献导读，并保存为 docx。
-```
-
-这种情况下，`$write-literature-guide` 只是一个方便识别的调用名称，不是必须语法。
-
